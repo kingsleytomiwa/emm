@@ -1,19 +1,22 @@
 body{
-    background-color: hsl(212, 45%, 89%);}
+    background-color: hsl(212, 45%, 89%);
+display:flex;
+align-items: center;
+justify-content: center;
+}
     div.code{
         border-style: none;
         border-radius: 10px;
         background-color: hsl(0, 0%, 100%);
-        width: 200px;
-        margin: auto;
-        padding:10px;
+        max-width: 200px;
         display: grid;
         place-items: center;
-        margin-top: 100px;
+        display: grid;
+place-items: center;
     }
     img{
         border-radius: 10px;
-        width: 200px;
+        max-width: 200px;
     }
     p{
         font-size: 15px;
